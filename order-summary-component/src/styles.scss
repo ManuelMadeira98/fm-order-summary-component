@@ -95,7 +95,11 @@ body {
 	display: grid;
     place-items: center;
 
+    background-image: url("/assets/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+
     @media (width >= 768px) {
         font-size: 1rem;
+        background-image: url("/assets/pattern-background-desktop.svg");
     }
 }
